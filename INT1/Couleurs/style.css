@@ -1,0 +1,32 @@
+.orange {
+    color: orange;
+}
+.rouge {
+    color: #d23100;
+}
+.bleu {
+    color: #34es;
+}
+.rgb {
+    color: rgb(120, 0, 120);
+}
+.hsl {
+    color: hsl(315, 73.3%, 47%);
+}
+.fond-noir {
+    color: white;
+    background-color:black;
+}
+.fond-rouge {
+    background-color:red;
+}
+.opa1 {
+    background-color: rgb(255,0,0, 0.5);
+}
+.opa2 {
+    background-color: hsl(0, 100%, 50%, 0.5);
+}
+.opa3 {
+    background-color: rgb(255,0,0);
+    opacity: 0.5;
+}
