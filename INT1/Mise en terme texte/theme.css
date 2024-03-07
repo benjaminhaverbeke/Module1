@@ -1,0 +1,99 @@
+.code {
+    color: black;
+    background-color: white;
+    font-size: 0.875rem;/* on peut mettre .875rem*/
+    font-family: Monaco, monospace;
+}
+.font-size-medium {
+    font-size:medium;
+}
+.font-size-large {
+    font-size:large;
+}
+.font-size-px {
+    font-size:14px;
+}
+.font-size-pt {
+    font-size: 14pt;
+}
+.font-size-pourcent {
+    font-size: 150%;
+}
+.font-size-em {
+    font-size: 1.5em;
+}
+.font-size-rem {
+    font-size: 1.5rem;
+}
+.font-weight-bold {
+    font-weight: bold;
+}
+.font-weight-normal{
+ font-weight: normal;    
+}
+.font-weight-700 {
+    font-weight:700;
+}
+
+.font-weight-bolder {
+    font-weight: bolder;
+}
+.font-weight-lighter {
+    font-weight: lighter;
+}
+.font-style-italic {
+    font-weight: italic;
+}
+.font-style-normal {
+    font-style:normal;
+}
+.letter-spacing {
+    letter-spacing: 0.5em;
+}
+.white-space-normal {
+    white-space:normal;
+}
+.white-space-nowrap {
+    white-space:nowrap;
+}
+.white-space-pre {
+    white-space:pre;
+}
+.text-align {
+    text-align:center;
+}
+.text-indent {
+    text-indent:30%;
+}
+.text-transform-capitalize{
+    text-transform:capitalize;
+}
+.text-transform-uppercase{
+    text-transform:uppercase;
+}
+.text-transform-lowercase{
+    text-transform: lowercase;
+}
+
+.text-decoration-underline {
+    text-decoration: underline;
+}
+
+.text-decoration-none {
+    text-decoration: none;
+}
+.text-decoration-overline {
+    text-decoration: overline;
+}
+.text-decoration-underline-red {
+    text-decoration: underline red;
+}
+.text-decoration-underline-double {
+    text-decoration: underline double;
+}
+.text-decoration-underline-dashed-green {
+    text-decoration: underline dashed green;
+}
+.text-decoration-underline-wavy-teal {
+    text-decoration: underline wavy teal;
+}

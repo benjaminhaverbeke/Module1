@@ -1,0 +1,28 @@
+.container {
+    max-width: 1200px;
+    border: solid 4px black;
+    
+}
+div, header, main, footer, p, nav, h1, h2, section, article, aside, h3 {
+    margin: 15px;
+}
+header, main, footer {
+    background-color: #dff7ff;
+    border: solid 3px blue;
+}
+nav, section, aside {
+    background-color: #e3e3e3;
+    border: 2px solid grey;
+    
+}
+article {
+	background-color: #fff4e1;
+	border:  1px solid #ff642b;
+}
+.license {
+    text-align: center;
+}
+.license img {
+    background-color: black;
+    padding: 15px;
+}

@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'Muli';
+    font-weight: normal;
+    font-style: normal;
+    src: url(./fonts/Muli/Muli-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Muli';
+    font-weight: bold;
+    font-style: normal;
+    src: url(./fonts/Muli/Muli-Bold.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Muli';
+    font-weight: normal;
+    font-style: italic;
+    src: url(./fonts/Muli/Muli-Italic.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Muli';
+    font-weight: bold;
+    font-style: italic;
+    src: url(./fonts/Muli/Muli-BoldItalic.ttf) format('truetype');
+}
+body {
+    font-family: 'Muli', sans-serif;
+}
+
+.google {
+    font-family: Barriecito;
+}
+.fa-square-facebook {
+    color: #0866FF;
+}

@@ -1,0 +1,7 @@
+.code {
+    color: black;
+    background-color: white;
+    font-size: 0.875rem;/* on peut mettre .875rem*/
+    font-family: Monaco, monospace;
+}
+
