@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'Courgette';
+    font-weight: normal;
+    font-style: normal;
+    src: url(./instructions/ressources/Courgette-Regular.ttf) format('truetype');
+}
+
+.container {
+    max-width: 980px;
+    line-height: 1.5;
+    margin: auto;
+}
+
+h1,
+nav,
+blockquote,
+h2,
+h3 {
+    font-family: Courgette;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 18px;
+    font-family: "Source Sans 3", sans-serif;
+
+}
+
+
+/***********************header*****************************/
+
+header {
+    text-align: center;
+    color: #003884;
+}
+
+nav {
+    text-align: left;
+    font-size: 2rem;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+blockquote {
+    background-color: #d7e1ef;
+
+    font-size: 1.6rem;
+
+}
+
+blockquote>p {
+    font-size: 2.5rem;
+}
+
+/*************main*****************************************/
+
+.main {
+    color: #444;
+}
+
+
+h2 {
+    color: #4f89b9;
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+h3 {
+    color: #003884;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.flag,
+.bridge {
+    float: right;
+}
+
+.italic {
+    color: #003884;
+    font-style:italic;
+}
+
+
+.gras {
+    font-weight: 600;
+    color: #003884;
+}
+
+.statue, .taxi {
+    float: left;
+
+}
+/**********************footer**************************/
+.footer {
+    text-align:center;
+    display: block;
+    border-top: solid 3px #003884;
+}
+.fa-square-facebook, .fa-square-pinterest, .fa-square-instagram {
+    color: #003884;
+   
+}
+.copy {
+    font-size: 1.4rem;
+}

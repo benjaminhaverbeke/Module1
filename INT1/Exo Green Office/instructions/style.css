@@ -1,0 +1,87 @@
+/************Généralités**************************/
+*{
+    box-sizing: border-box;
+}
+
+
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size:14px;
+    color: #2C4726;
+    background-image:url("./img/fond.png");
+    background-attachment: fixed;
+}
+.container {
+    max-width: 750px;
+    font-family:Verdana;
+    margin:auto;
+}
+h1, h2, h3, nav {
+    font-family: "Oswald";
+    color:#2C4726;
+    font-weight: 400;
+}
+h1 {
+    font-size: 3rem;
+    text-align:center;
+}
+h2 {
+    font-size: 2.1rem;
+}
+h2::before {
+    content: '🌿';
+}
+button {
+    background-color: #b8cb21;
+    border: none;
+    
+}
+.button-pos {
+    text-align:right;
+    margin:0;
+}
+
+/****************header*************************/
+header ul {
+    font-size: 2rem;
+    text-decoration:underline;
+    list-style-type: none;
+    float: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width:100%;
+}
+.header {
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    background-color: #b8cb21;
+    
+}
+nav {
+    flex-basis: 35em;
+}
+.what, .who {
+    float:left;
+    padding-right: 1rem;
+}
+/****************main**************************/
+.main {
+    background-color: white;
+    padding: 2rem;
+}
+
+
+/*******************footer**************************/
+.footer {
+    font-size: 1rem;
+    text-align:center;
+    padding: 2rem;
+}
+.mention-blue {
+    color: #307ECC;
+    text-decoration:none;
+}

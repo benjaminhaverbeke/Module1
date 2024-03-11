@@ -1,0 +1,146 @@
+/**********polices********************/
+@font-face {
+    font-family: 'SpecialElite';
+    font-weight: normal;
+    font-style: normal;
+    src: url(./ressources/fonts/specialelite/SpecialElite.woff) format('truetype');
+}
+@font-face {
+    font-family: 'Cardo Bold';
+    font-weight: bold;
+    font-style: normal;
+    src: url(./ressources/fonts/cardo/cardo-bold.woff) format('truetype');
+}
+@font-face {
+    font-family: 'Cardo Italic';
+    font-weight: normal;
+    font-style: italic;
+    src: url(./ressources/fonts/cardo/cardo-italic.woff) format('truetype');
+}
+@font-face {
+    font-family: 'Cardo Regular';
+    font-weight: normal;
+    font-style: normal;
+    src: url(./ressources/fonts/cardo/cardo-regular.woff) format('truetype');
+}
+
+
+/****************général**************************/
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size:16px;
+    font-family: "Cardo Regular";
+    
+}
+h1 {
+    font-size: 4em;
+    line-height: 2;
+    font-family: "SpecialElite";
+    font-weight:500;
+}
+h2 {
+    font-size:2.5em;
+    line-height: 1.2;
+    font-family: "SpecialElite";
+    font-weight: 500;
+}
+
+/***********général***************************/
+
+
+
+
+h3 {
+    font-size: 1.5em;
+    line-height: 1;
+    font-weight: 600;
+    letter-spacing:0.5px;
+}
+.container {
+    max-width: 420px;
+    margin:auto;
+}
+p {
+    text-align:justify;
+}
+/***********************header********************/
+blockquote p{
+    
+    text-align:left;
+    line-height:1.5;
+    font-style:italic;
+
+}
+blockquote p::before {
+    content:'«';
+}
+blockquote p::after {
+    content:'»';
+}
+blockquote {
+    line-height: 2;
+    text-align:center;
+    font-style:normal;
+}
+.header {
+    text-align:center;
+    border-bottom: solid 1px black;
+}
+
+/**************main************************/
+
+
+.content p::first-letter {
+    font-family: "SpecialElite";
+    font-size: 1.5em;
+    float:left;
+    padding-right:0.5em;
+    padding-top:5px;
+    
+}
+.gris-typo {
+    text-decoration: underline dashed 1px;
+    text-underline-offset: 0.4em;
+}
+h3::before {
+    content: '❧';
+}
+/*************footer************************/
+
+
+.footer {
+    border-top: solid 1px black;
+}
+.footer p {
+    text-align: center;
+}
+.saint-exupery p {
+    text-align:justify;
+    line-height: 1.5;
+    
+}
+.wikipedia {
+    text-align:left;
+    
+}
+.saint-exupery {
+    line-height:3;
+}
+.logo-footer {
+    font-size: 2.5em;
+}
+.lien-wiki {
+    
+    text-decoration: underline dashed 1px ;
+    text-underline-offset: 0.4em;
+    color: black;
+    
+}
+.saint-exupery p::before {
+    content:'«';
+}
+.saint-exupery p::after {
+    content:'»';
+}
