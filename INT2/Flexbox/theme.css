@@ -1,0 +1,172 @@
+ul{
+    padding:0;
+    list-style: none;
+}
+
+
+/**********flex-direction*********************/
+.test-default {
+    display: flex;
+    /*flex-direction: row;*/
+}
+.test-default-row-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.test-column {
+    display: flex;
+    flex-direction: column;
+}
+.test-column-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+/***************flex-wrap***********************/
+.test-nowrap {
+    display: flex;
+    
+    width: 300px;
+    flex-wrap: nowrap;
+}
+.test-wrap {
+    display: flex;
+    
+    width: 300px;
+    flex-wrap: wrap;
+}
+/*************align-items************************/
+
+.test-align-items-center {
+    display: flex;
+    align-items: center;
+    
+}
+[class*="test-align-items"] li:nth-child(odd) {
+    line-height: 4em;
+}
+
+.test-align-items-flex-start {
+    display: flex;
+    align-items: flex-start;
+    
+}
+
+.test-align-items-flex-end {
+    display: flex;
+    align-items: flex-end;
+    
+}
+
+/*******justify-content***********************/
+.test-justify-content-center {
+    display: flex;
+    justify-content: center;
+    
+}
+.test-justify-content-flex-start {
+    display: flex;
+    justify-content: flex-start;
+    
+}
+.test-justify-content-space-around {
+    display: flex;
+    justify-content: space-around;
+    
+}
+.test-justify-content-space-between {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.test-justify-content-space-evenly {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+/*************order********************************/
+
+
+
+.test-order {
+    display: flex;
+    
+    
+}
+
+.test-order li:nth-child(1)
+{
+    order:4;
+}
+.test-order li:nth-child(2)
+{
+    order:2;
+}
+.test-order li:nth-child(3)
+{
+    order:6;
+}
+.test-order li:nth-child(4)
+{
+    order:1;
+}
+.test-order li:nth-child(5)
+{
+    order:3;
+}
+.test-order li:nth-child(6)
+{
+    order:5;
+}
+/*********************flex-grow************************************/
+
+.test-grow {
+    display:flex;
+    flex-direction: row;
+}
+
+.test-grow li:nth-child(3) {
+    flex-grow:2;
+}
+.test-grow li:nth-child(1), .test-grow li:nth-child(2), .test-grow li:nth-child(4), .test-grow li:nth-child(5), .test-grow li:nth-child(6) {
+    flex-grow:1;
+}
+/******************flex-shrink*******************/
+.test-shrink {
+    display:flex;
+    
+}
+.test-shrink >* {
+    flex-basis: 20em;
+    flex-grow:1;
+}
+
+.test-shrink li:nth-child(6) {
+    flex-shrink: 1;
+}
+/*********************flex-grow deuxieme test***********/
+.test-grow2 {
+    display: flex;
+}
+.test-grow2 >* {
+    flex-basis: 1em;
+    flex-grow: 1;
+    margin: 1em;
+    
+}
+/*******1ere méthode
+.test-grow2 > li:nth-child(1) {
+    flex-grow: 1;
+}
+.test-grow2 > li:nth-child(3) {
+    flex-grow: 1;
+}
+.test-grow2 li:nth-child(2) {
+    flex-grow: 2;
+}
+
+*/
+
+.test-grow2 .x2 {
+    flex-grow: 2;
+}

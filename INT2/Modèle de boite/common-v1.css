@@ -1,0 +1,102 @@
+/********************************************************************************/
+/*                          GENERALITES                                         */
+/********************************************************************************/
+html {
+    font-size: 62.5%; /* 62.5% ; Ramène à 10px la police par défaut; Produit en croix; 16px configuré de base dans la page = 100%; on veut que cette taille soit ramenée à 10px(pour que ce soit plus simple en em et rem); donc 10*100/16 = 62.5    */
+    
+}
+
+
+body {
+    font-family: sans-serif;
+    color: #555;
+    background-color: #eee;
+    font-size: 16px;
+    /*La on a remis la page sur la taille de police par défaut, 16 px, si on veut utiliser des em ou des rem, on saura que 1em = 10px */
+
+    
+    
+}
+
+
+
+h1 {
+    font-size: 4rem;
+    color: #DD5735;
+}
+
+h2 {
+    font-size: 3.2rem;
+    color: #333;
+}
+
+h3 {
+    font-size: 2.4rem;
+}
+a {
+    text-decoration: none;
+    color: #DD5735;
+}
+
+/********************************************************************************/
+/*                          LAYOUT (mise en page )                              */
+/********************************************************************************/
+
+
+/*marge par défaut de body = 8px*/
+.header {
+    text-align: center;
+    background-color: #ddd;
+    border: 1px solid #DD5735;
+}
+
+.footer {
+    text-align: center;
+    background-color: #ddd;
+    border: 1px solid #555;
+}
+
+.license img {
+    background-color: black;
+    padding: 15px;
+}
+/********************************************************************************/
+/*                          VARIOUS                                             */
+/********************************************************************************/
+.parent {
+    border: 1px dashed #DD5735;
+}
+
+/****************************Main******************************************/
+main {
+    margin: 2rem;
+}
+.box {
+    background-color: #CCC;
+}
+
+.box2 {
+    margin: 2rem;
+}
+.box3 {
+    padding: 2rem;
+
+}
+
+.box4 {
+    padding: 2rem;
+    border: solid 5px red;
+}
+.box5 {
+    padding: 2rem;
+    border: solid 5px red;
+    width: 500px;
+    margin:auto;
+}
+.box6 {
+    padding: 2rem;
+    border: solid 5px red;
+    width: 500px;
+    box-sizing: border-box;
+    margin:auto;
+}
