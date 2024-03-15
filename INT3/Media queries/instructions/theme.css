@@ -1,0 +1,36 @@
+/*********main******************/
+
+
+.page {
+    
+    background-color: white;
+}
+
+.page header, .page footer {
+    background-color: silver;
+    font-size: 2rem;
+    padding: 1em;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/************tablette******************/
+
+@media screen and (min-width: 780px){
+    
+    main {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    article {
+        flex-basis: 50%;
+    }
+}
+/***********desktop*********************/
+@media screen and (min-width:1200px){
+    article {
+        flex-basis: 25%;
+    }
+}

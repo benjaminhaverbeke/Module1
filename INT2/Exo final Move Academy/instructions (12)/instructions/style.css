@@ -13,6 +13,7 @@ html {
 body {
     font-size: 16px;
     font-family: "Open Sans", sans-serif;
+    margin: 0;
 }
 h1 {
     font-size: 5rem;
@@ -21,15 +22,31 @@ h1 {
 h2 {
     font-size: 4rem;
     font-family: "Economica";
+    font-weight: 900;
     color: #b878b5;
 }
 h3 {
     font-size: 3rem;
     font-family: "Economica";
     color: #7e4a7c;
+    margin-top: 0;
+    margin-bottom: 2rem;
 }
 nav {
     font-size: 2.4rem;
+}
+
+.more, .submit-button {
+    background-color: #7e4a7c;
+    font-family: "Economica";
+    font-size: 2rem;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    color: white;
+    border: 1px solid #7e4a7c;
+    font-weight: 900;
+}
+cite {
+    color: #7e4a7c;;
 }
 /**********************header*********************************/
 
@@ -54,7 +71,7 @@ nav {
     display: flex;
     justify-content: space-around;
     margin: 0;
-    padding: 1rem;
+    padding:0.5rem;
     font-weight: 900;
     color: white;
 }
@@ -62,18 +79,198 @@ nav {
     width: 25em;
     margin-bottom: 3rem;
 }
+nav ul li {
+    padding: 1rem 2rem 1rem 2rem;
+}
+nav ul li:hover {
+    background-color: white;
+    color: #b878b5;
+}
 /*******************main*************************************/
-.premiere-section {
+
+
+/*****************1er article about school********************************/
+
+
+
+.content-article-1 {
     display: flex;
+    justify-content: space-between;
 }
-.premiere-section > article {
-    flex-basis: 50%;
+
+.content-article-1 > section{
+    flex-basis: 1em;
 }
-.why{
+
+.content-article-1 section:nth-child(1),
+.content-article-1 section:nth-child(3){
     flex-grow: 1;
 }
-.groupe {
-    flex-grow: 2;
+.content-article-1 section:nth-child(2){
+    flex-grow: 1.3;
+    padding-left: 2rem;
+    padding-right: 4rem;
+    
 }
 
 
+.content-article-1 ul {
+    list-style: none;
+    padding:0;
+    line-height: 3;
+    margin: 0;
+}
+.content-article-1 li::before {
+    content: url("./images/puce-fleche.png")"  ";
+}
+
+
+
+
+/*****************2eme article our teachers******************************/
+
+.content-teachers {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+
+}
+.content-teachers > div {
+    flex-basis: 58rem;
+    display: flex;
+}
+
+.gutter {
+    margin-left: 2rem;
+    
+    
+}
+/******************3eme article our classes*********************/
+
+.classes-table {
+  border: 1px solid #B878B5;
+  background-color: #FFFFFF;
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+  
+}
+.classes-table th {
+  border: 1px solid #B878B5;
+  padding: 2rem 1rem 2rem 1rem;
+}
+.classes-table td {
+    border: 1px solid #B878B5;
+    padding: 1rem;
+}
+
+table.classes-table thead {
+  background: #7E4A7C;
+}
+table.classes-table thead th {
+  
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+
+.classes-table td:first-child {
+    font-weight: bold;
+    font-family: "Economica";
+    font-size: 2rem;
+    font-weight: bold;
+    
+    
+}
+
+.vide {
+    background-color: #ffeefe;
+}
+
+
+
+/*****************4eme article book your lesson********************/
+fieldset {
+    
+    border-color: black;
+    font-family: "Economica";
+    font-size: 2.5rem;
+    font-weight: bolder;
+    padding: 0;
+}
+.field {
+    background-color: #ffeefe;
+    line-height: 2em;
+    margin: 2rem;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.coordonnee > div {
+    flex-basis:50%;
+}
+
+.field input {
+    width: 60%;
+    
+
+}
+input, select {
+    height: 2em;
+    vertical-align: middle;
+}
+
+.toolbar {
+    text-align:center;
+}
+
+
+.choix select {
+    width: 25rem;
+    
+}
+.submit-button {
+    margin-bottom : 2rem;
+}
+
+
+/********************footer**************************/
+
+
+.footer {
+    width: 100%;
+    margin-top: 5em;
+    
+}
+.logo-reseaux {
+    background-color: #7e4a7c;
+    display: flex;
+    justify-content: center;
+    line-height: 2em;
+    padding: 1em;
+    
+}
+.logo-reseaux i {
+    padding: 1em;
+}
+.licence {
+    text-align: center;
+    background-color: RGB(68, 68, 68);
+    color: white;
+    margin:0;
+    padding:3rem;
+}
+.licence a {
+    color: white;
+}
+
+i {
+    color: white;
+}
+label {
+    padding-right:1rem;
+}
