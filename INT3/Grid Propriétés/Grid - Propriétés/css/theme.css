@@ -1,0 +1,218 @@
+.test-simple {
+    display: grid;
+    grid-template-columns: 150px auto;
+    /*auto = tu remplis le reste*/
+    grid-template-rows: auto;
+}
+
+.test-simple-alt {
+    display: grid;
+    grid-template: auto /150px auto;
+    /*auto = tu remplis le reste*/
+    /*grid-template: row /column;*/
+}
+
+.test-repeat {
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    /*auto auto auto*/
+    grid-template-columns: repeat(4, auto);
+
+}
+
+.test-gap {
+    display: grid;
+    grid-template: repeat(3, auto) /repeat(4, auto);
+    row-gap: 2em;
+    column-gap: 4px;
+
+}
+
+.test-gap-alt {
+    display: grid;
+    grid-template: repeat(3, auto) /repeat(4, auto);
+    gap: 2em 4px;
+}
+
+.test-justify-items-center {
+    display: grid;
+    grid-template: repeat(3, auto) /repeat(4, auto);
+    Justify-items: center;
+}
+
+.test-justify-items-start {
+    display: grid;
+    grid-template: repeat(3, auto) /repeat(4, auto);
+    Justify-items: start;
+}
+
+.test-justify-items-end {
+    display: grid;
+    grid-template: repeat(3, auto) /repeat(4, auto);
+    Justify-items: end;
+}
+
+.test-align-items-center {
+    display: grid;
+    grid-template: repeat(3, auto) /repeat(4, auto);
+    align-items: center;
+    height: 50vh;
+}
+
+.test-align-items-start {
+    display: grid;
+    grid-template: repeat(3, auto) /repeat(4, auto);
+    align-items: start;
+    height: 50vh;
+}
+
+.test-align-items-end {
+    display: grid;
+    grid-template: repeat(3, auto) /repeat(4, auto);
+    align-items: end;
+    height: 50vh;
+}
+
+.test-justify-content-center {
+    display: grid;
+    grid-template: repeat(3, auto) /repeat(4, auto);
+    justify-content: center;
+}
+
+.test-justify-content-start {
+    display: grid;
+    grid-template: repeat(3, auto) /repeat(4, auto);
+    justify-content: start;
+}
+
+.test-justify-content-end {
+    display: grid;
+    grid-template: repeat(3, auto) /repeat(4, auto);
+    justify-content: end;
+}
+
+.test-justify-content-between {
+    display: grid;
+    grid-template: repeat(3, auto) /repeat(4, auto);
+    justify-content: space-between;
+}
+
+.test-justify-content-around {
+    display: grid;
+    grid-template: repeat(3, auto) /repeat(4, auto);
+    justify-content: space-around;
+}
+
+.test-align-content-center {
+    display: grid;
+    grid-template: repeat(3, auto) /repeat(4, auto);
+    align-content: center;
+    height: 50vh;
+}
+
+.test-align-content-start {
+    display: grid;
+    grid-template: repeat(3, auto) /repeat(4, auto);
+    align-content: start;
+    height: 50vh;
+}
+
+.test-align-content-end {
+    display: grid;
+    grid-template: repeat(3, auto) /repeat(4, auto);
+    align-content: end;
+    height: 50vh;
+}
+
+.test-align-content-space-between {
+    display: grid;
+    grid-template: repeat(3, auto) /repeat(4, auto);
+    align-content: space-between;
+    height: 50vh;
+}
+
+.test-align-content-space-around {
+    display: grid;
+    grid-template: repeat(3, auto) /repeat(4, auto);
+    align-content: space-around;
+    height: 50vh;
+}
+
+.test-align-content-space-evenly {
+    display: grid;
+    grid-template: repeat(3, auto) /repeat(4, auto);
+    align-content: space-evenly;
+    height: 50vh;
+}
+
+.grid-items {
+    display: grid;
+    grid-template-columns: 3fr auto;
+    grid-template-rows: 1fr 2fr 1fr;
+    gap: 1em 2em;
+}
+
+.grid-header {
+    grid-column: 1/ 3;
+    grid-row: 1/2;
+}
+
+.grid-footer {
+    grid-column: 1/ 3;
+    grid-row: 3/4;
+}
+
+
+.grid-items-alt {
+    display: grid;
+    grid-template: 1fr 3fr 1fr / 4fr 1fr;
+    gap: 1em 2em;
+}
+
+
+.grid-area {
+
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-template-areas: 
+    "headerArea headerArea headerArea"
+    "mainArea mainArea asideArea"
+    "footerArea footerArea footerArea";
+    gap: 1em 2em;
+}
+.grid-header-area {
+    grid-area: headerArea;
+}
+.grid-main-area {
+    grid-area: mainArea;
+}
+
+.grid-footer-area {
+    grid-area: footerArea;
+}
+.grid-aside-area {
+    grid-area: asideArea;
+}
+
+.test-areas-alt {
+	display: grid;
+	/*grid-template: repeat(3, auto) / repeat(4, auto);*/
+	grid-template-areas:
+		"header header header header"
+		"main main . sidebar"
+		"footer footer footer footer";
+	gap: 1em;
+}
+.test-areas-alt .area-header {
+	grid-area: header;
+}
+.test-areas-alt .area-main {
+	grid-area: main;
+}
+.test-areas-alt .area-sidebar {
+	grid-area: sidebar;
+}
+.test-areas-alt .area-footer {
+	grid-area: footer;
+}
+

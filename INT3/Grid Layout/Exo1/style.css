@@ -1,0 +1,60 @@
+body {
+    background-color: white;
+}
+
+
+.grid-container {
+    display: grid;
+    width: 80%;
+    background-color: white;
+    margin: auto;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 1em;
+}
+div {
+    min-height: 10em;
+    background-color: lightgrey;
+}
+
+.item:nth-child(1){
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+.item:nth-child(6){
+    grid-column: 2/4;
+    grid-row: 3/5;
+}
+.item:nth-child(7){
+    grid-column: 1/3;
+    grid-row: 5/6;
+}
+
+
+/****Astuce 1
+
+
+aspect-ratio: 1; permet de donner la taille d'un carré à des boites vides
+
+
+***/
+/*****Astuce 2
+grid-area: span 2 / span 2; cela veut dire que la boite prend 2 colonnes et 2 lignes
+
+**/
+/****Astuce 3
+grid-auto-flow: dense;
+
+.item:nth-child(6n + 1),
+.item:nth-child(6n + 6) {
+    grid-area: span 2 / span 2;
+}
+
+.item:nth-child(6n + 5) {
+    grid-column: 1;
+}
+****/
+
+
+
+
