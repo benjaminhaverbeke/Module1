@@ -1,0 +1,64 @@
+/******************************************************************************/
+/*                               Généralités                                  */
+/******************************************************************************/
+h2,
+h3 {
+    margin: 0;
+}
+
+section header,
+section footer,
+section aside,
+section nav {
+    padding: 1em;
+}
+
+
+/******************************************************************************/
+/*                                  PAGE                                      */
+/******************************************************************************/
+.grid {
+    display: grid;
+    grid-template-columns: 17% auto 17%;
+    grid-template-areas: 
+     "headerArea headerArea headerArea"
+     "navArea mainArea asideArea"
+     "footerArea footerArea footerArea";
+    gap: 1rem;
+}
+
+.bloc-header {
+    grid-area: headerArea;
+    background-color: #ddd;
+}
+
+.bloc-footer {
+    grid-area: footerArea;
+	background-color: #bbb;
+}
+
+.bloc-nav {
+    grid-area: navArea;
+	background-color: #fc3;
+}
+.bloc-nav a {
+	display: block;
+	margin: 1rem 0;
+	padding: 1rem;
+	border: 1px solid;
+}
+
+.bloc-main {
+    grid-area: mainArea;
+	background-color: #fff;
+}
+
+.bloc-aside {
+    grid-area: asideArea;
+	background-color: #fa3;
+	font-size: 3rem;
+}
+.bloc-aside a:hover {
+    text-decoration: none;
+}
+
