@@ -1,0 +1,52 @@
+nav ul {
+    list-style: none;
+    display: grid;
+    grid-template: 1fr/ repeat(5, 1fr);
+    align-items: center;
+    justify-items: center;
+    padding: 0;
+    min-height: 60px;
+    
+    
+}
+
+nav {
+    background-color: #DD5735;
+    padding: 0;
+   
+    
+}
+
+ul li {
+    color: #fff;
+}
+
+li {
+    transition: background-color 0.2s, color 1s, transform 0.5s;
+    text-align: center;
+    
+    
+    
+}
+
+li:hover {
+    background-color: #fc3;
+    color: #333;
+    transform: scale(1.5);
+    padding: 1em;
+    align-self: center;
+    
+    
+    
+    
+}
+/**********test*******
+li:hover::before {
+    content: "!!!!";
+}
+
+li:hover::after {
+    content: "!!!!";
+}
+
+*****/

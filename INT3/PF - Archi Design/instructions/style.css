@@ -614,8 +614,12 @@ nav {
 	grid-template: 1fr 1fr / 10% 90%;
 }
 
-.overflow-box > div > p:nth-child(1)::before {
+.overflow-box .grid-avis div> p:nth-child(1)::before {
 	content: url("./images/quote.png");
 }
 
+.overflow-box .grid-avis div > p:nth-child(3)::before {
+	content: url("./images/client.png");
 }
+
+
