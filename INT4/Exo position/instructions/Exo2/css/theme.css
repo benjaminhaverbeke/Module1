@@ -1,0 +1,54 @@
+/* Le code CSS de la démo */
+
+.container {
+	margin: 2em auto;
+}
+
+article {
+	margin: 2em 0;
+}
+
+/* Position relative*/
+
+.cadre-sunset {
+	width: 640px;
+}
+
+.cadre-sunset p {
+	
+	text-align: center;
+	position: relative;
+	top: -77px;
+	padding: 1em;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+	
+}
+
+/*position absolute*/
+
+
+.overlay {
+	width: 64rem;
+	height: 36rem;
+	position: relative;
+}
+
+.overlay p {
+	position: absolute;
+	top: 0;
+	right: 0;
+	
+	background-color: rgba(0, 0, 0, 0.5);
+	left: 0;
+	bottom: 0;
+	color: white;
+	margin: 0;
+	text-align:center;
+	padding: 16rem;
+	opacity: 0;
+}
+
+.overlay p:hover {
+	opacity: 1;
+}

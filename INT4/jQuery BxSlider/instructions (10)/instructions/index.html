@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Le template des démos du module 3 (feuille de style commune en version 3)">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+	
+	<title>BxSlider</title>
+	<link rel="stylesheet" href="common-v3.css">
+	<link rel="stylesheet" href="theme.css">
+
+</head>
+
+<body>
+
+	<header class="header">
+		<h1>jQuery BxSLider</h1>
+		<p>plugin jQuery</p>
+	</header>
+
+	<main class="container">
+ <div class="slider">
+      <div><img src="./ressources/hollywood1.jpg" title="Hollywood1"/>
+      
+      </div>
+      <div><img src="./ressources/hollywood2.jpg" title="Hollywood2"/>
+      
+      </div>
+      <div><img src="./ressources/hollywood3.jpg" title="Hollywood3"/>
+      
+      </div>
+      <div><img src="./ressources/hollywood4.jpg" title="Hollywood4"/>
+      
+      </div>
+    </div>
+
+	</main>
+
+	<footer class="footer">
+		<p><a rel="license" href="https://3wa.fr/propriete-materiel-pedagogique/"><img alt="Propriété de la 3W Academy" src="https://3wa.fr/wp-content/themes/3wa2015/img/logos/big.png"></a></p>
+		<p>Ce matériel pédagogique est la propriété de la <a rel="license" href="https://3wa.fr/propriete-materiel-pedagogique/">3W Academy</a>. Cet exercice a été réalisé par Stephane Pereck.</p>
+	</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+	<script>
+      $(document).ready(function(){
+        $(".slider").bxSlider({
+        	
+        	mode : 'fade',
+        	infiniteLoop: true,
+        	speed: 500,
+        	auto: true,
+        	pause: 2000,
+        	autoHover: true,
+        	captions: true
+        	
+        });
+        
+      });
+    </script>
+
+</body>
+
+</html>

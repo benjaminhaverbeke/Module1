@@ -1,0 +1,67 @@
+/* Le code CSS de la démo */
+
+.container {
+	margin: 2em auto;
+}
+
+article {
+	margin: 2em 0;
+}
+
+/* Position */
+
+.static {
+	position: static;
+	left: -10em;
+	background-color: #9c6;
+}
+
+/*  position relative à sa place initiale (dans le flow général */
+
+.relative {
+	position: relative;
+	left: -10em;
+	background-color: #fc3;
+}
+
+/**********position par rapport au parent qui doit être en relative!important************/
+
+.absolute {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 2em;
+	background-color: #f93;
+
+	/*overlay
+	
+	background-color: rgba(0, 255, 0, 0.5);
+	left: 0;
+	bottom: 0;
+	*/
+	
+}
+
+
+.absolute-parent {
+	position: relative;
+}
+
+.fixed {
+	position: fixed;
+	top: 0;
+	right: 0;
+	background-color: #69c;
+	width: 20em;
+	z-index: 2;
+	
+}
+
+
+.sticky {
+	position: sticky;
+	top: 10em;
+	background-color: #f9c;
+	z-index: -1;
+	
+}

@@ -1,0 +1,72 @@
+/* Le code CSS de la démo */
+
+.container {
+	margin: 2em auto;
+	width: 300px;
+	padding: 0;
+	border: 0;
+	min-height: 500px;
+}
+
+article {
+	margin: 2em 0;
+}
+
+/*poster*/
+
+
+.image {
+	width: 100%;
+	margin: 0;
+	
+}
+.poster {
+	position: relative;
+	font-family: "Sanchez";
+	font-weight: bold;
+	top: 0;
+	left: 0;
+}
+
+.orange {
+	background-color: orange;
+	padding: 1.2rem;
+	color: red;
+	position: absolute;
+	width: 100%;
+	bottom: -13.4rem;
+	display: flex;
+	justify-content:center;
+	column-gap: 1.5rem;
+	align-items: center;
+}
+
+.plus p {
+	font-size: 3rem;
+ 
+ line-height: 0.5;
+}
+
+
+.red {
+	 position: absolute;
+	 height: 40%;
+	 width: 40%;
+	 background-color: red;
+	 padding: 1rem;
+	 top: 19.2rem;
+	 color: white;
+	 text-align: center;
+}
+.red p:nth-child(2) {
+	font-size: 3.5rem;
+	margin: 0;
+}
+.red p:nth-child(1) {
+	font-size: 1.3rem;
+	margin-top: 0.3rem;
+}
+
+.strong {
+	font-weight: 800;
+}

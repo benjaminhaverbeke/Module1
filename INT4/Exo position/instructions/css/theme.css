@@ -1,0 +1,25 @@
+/* Le code CSS de la démo */
+
+.container {
+	margin: 2em auto;
+}
+nav ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+}
+
+.sticky {
+	position: sticky;
+	background-color: orange;
+	color: white;
+	padding: 1rem;
+	top: 1rem;
+	margin:1rem 0rem 1rem 0;
+}
+
+.footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
