@@ -1,0 +1,70 @@
+@import 'variables';
+
+// Mixins
+@mixin rounded-square($size, $radius) {
+    width: $size;
+    height: $size;
+    object-fit: cover;
+    border-radius: $radius;
+}
+
+// Utilisation des variables
+.main {
+    color: $base-color;
+}
+
+.main h1 {
+    color: $title-1;
+}
+
+.imbrication {
+    h2 {
+        color: $title-2;
+    }
+
+    section {
+        padding: 1em;
+        border: 1px solid $title-3;
+
+        h3 {
+            color: $title-3;
+        }
+    }
+
+    &__title {
+        color: black;
+    }
+}
+
+a {
+    color: black;
+    
+    &:hover {
+        color: green;
+    }
+}
+
+// Automatisation
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row>* {
+    margin-left: 1%;
+    margin-bottom: 1%;
+}
+
+@for $i from 2 to 7 {
+    .cols-#{$i}>* {
+        width: calc(100% / $i - 1%);
+    }
+}
+
+.avatar {
+    @include rounded-square(100px, 50%);
+}
+
+.logo {
+    @include rounded-square(120px, 10%);
+}

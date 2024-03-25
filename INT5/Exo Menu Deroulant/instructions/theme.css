@@ -1,0 +1,71 @@
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: RGB(51, 51, 51);
+    
+}
+
+ul li {
+    padding: 1em 2em 1em 2em;
+    color: white;
+}
+.header {
+    padding: 0;
+}
+
+
+
+.box, .sous-niveau {
+    display: none;
+    flex-direction: column;
+    align-content: center;
+    position: absolute;
+    padding: 0;
+}
+    
+.menu2{    
+    top: 5.6rem;
+    left: 47.4rem;
+    
+}
+.menu1{    
+    top: 5.6rem;
+    left: 33.5rem;
+    
+}
+.menu3{    
+    top: 5.6rem;
+    left: 61.2rem;
+    
+}
+
+.box li, .sous-niveau li {
+    border-bottom: solid RGB(68, 68, 68) 1px;
+}
+
+.menu-principal {
+    position: relative;
+}
+
+.menu-principal li:hover > .box {
+    display: flex;
+    cursor: pointer;
+}
+
+.box li:hover {
+    background-color: #DD5735;
+}
+
+.menu-principal li:hover {
+    cursor: pointer;
+}
+
+.menu1 li:hover >.sous-niveau {
+    display :flex;
+}
+
+.sous1 {
+    top: 0rem;
+    left: 14.5rem;
+}

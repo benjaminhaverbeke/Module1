@@ -1,0 +1,15 @@
+/* Généralités */
+article + article {
+	margin-top: 2em;
+}
+h2 {
+	margin: 0;
+}
+code {
+	padding: 0 0.5em;
+	color: #fff;
+	background-color: #333;
+}
+article .inner {
+	color: purple;
+}

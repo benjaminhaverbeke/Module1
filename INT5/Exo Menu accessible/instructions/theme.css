@@ -1,0 +1,32 @@
+.header {
+    position: relative;
+}
+.menu-accessible {
+   position: absolute;
+   
+   
+   
+   top: 0;
+   left: 0;
+   
+   
+}
+.menu-accessible a {
+    color:white;
+    text-decoration: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 1em;
+    background-color: black;
+    border: solid blue 1px;
+    opacity: 0;
+    
+   
+}
+
+
+.menu-accessible a:focus {
+    opacity: 1;
+}
+

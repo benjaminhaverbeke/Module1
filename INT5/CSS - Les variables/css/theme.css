@@ -1,0 +1,44 @@
+
+/* *****************************************************************
+ DECLARATION DES VARIABLES
+***************************************************************** */
+:root {
+    --txtcolor: #444;
+    --font-family: Arial;
+    --font-size: 2rem;
+    --font-weight: bold;
+    --button-background-color: #DD5735;
+    --button-color: #FFF;
+    --button-padding: 1em;
+    --body-background-color: #eee;
+}
+
+/* *****************************************************************
+ MAIN
+***************************************************************** */
+.demo {
+    font-family: var(--font-family);
+}
+
+.demo h2 {
+    color: var(--txtcolor);
+    font-size: var(--font-size);
+    font-weight: var(--font-weight);
+}
+    
+    
+.btn  {
+    background-color: var(--button-background-color);
+    color: var(--button-color);
+    padding: var(--button-padding);
+    font-weight: var(--font-weight);
+    
+    
+}
+.btn:hover {
+    text-decoration: none;
+}
+
+.fond-body {
+    --body-background-color: blue;
+}

@@ -1,0 +1,74 @@
+.main {
+  color: #369;
+}
+
+.main h1 {
+  color: #c33;
+}
+
+.imbrication h2 {
+  color: #a32929;
+}
+.imbrication section {
+  padding: 1em;
+  border: 1px solid #7a1f1f;
+}
+.imbrication section h3 {
+  color: #7a1f1f;
+}
+.imbrication__title {
+  color: black;
+}
+
+a {
+  color: black;
+}
+a:hover {
+  color: green;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row > * {
+  margin-left: 1%;
+  margin-bottom: 1%;
+}
+
+.cols-2 > * {
+  width: 49%;
+}
+
+.cols-3 > * {
+  width: 32.3333333333%;
+}
+
+.cols-4 > * {
+  width: 24%;
+}
+
+.cols-5 > * {
+  width: 19%;
+}
+
+.cols-6 > * {
+  width: 15.6666666667%;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.logo {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 10%;
+}
+
+/*# sourceMappingURL=theme.css.map */
